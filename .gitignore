@@ -1,0 +1,11 @@
+__pycache__
+logs
+.idea
+*.png
+*.cfl
+*.hdr
+
+data/**
+documentation/**
+experiments/**
+.DS_Store
