@@ -152,7 +152,7 @@ def plot_roc_curves(y_test, y_probs, labels, sample_weight=None):
     ax.plot([0, 0], [1, 1], linestyle='--', color='black', alpha=0.6)
     ax.set_ylabel('True Positive Rate')
     ax.set_xlabel('False Positive Rate')
-    ax.set_title('ROC curves', fontsize=14)
+    ax.set_title('ROC curve', fontsize=14)
     sns.despine()
     plt.legend(fontsize=13, loc='lower right')
 
